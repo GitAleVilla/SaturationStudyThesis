@@ -7,6 +7,7 @@ import matplotlib.mlab as mlab
 from scipy.stats import norm
 colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
 
+
 def True_Energy(x, cellsize):
 	if cellsize == 25:
 		m = 49.295
